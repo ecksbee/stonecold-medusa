@@ -1,0 +1,40 @@
+.padded {
+  width: 540px;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.home {
+  border-radius: 5%;
+  padding: 1%;
+  background-color: #0070f3;
+  color: white;
+  font-size: 0.8rem;
+  width: fit-content;
+}
+
+.btnSubmit {
+  border-radius: 5%;
+  padding: 1%;
+  background-color: #0070f3;
+  color: white;
+  font-size: 0.8rem;
+}
+.btnDisabled {
+  border-radius: 5%;
+  padding: 1%;
+  background-color: black;
+  color: gray;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 539px) {
+  .padded {
+    width: 100%;
+    margin: 0;
+  }
+}

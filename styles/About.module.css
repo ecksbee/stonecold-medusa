@@ -1,0 +1,9 @@
+.padded {
+  padding: 1% 20%;
+}
+
+@media screen and (max-width: 539px) {
+  .padded {
+    padding: 1%;
+  }
+}

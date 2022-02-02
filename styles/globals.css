@@ -1,0 +1,120 @@
+@font-face {
+  font-family: Gelasio;
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts/Gelasio-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Gelasio;
+  font-style: italic;
+  font-weight: bold;
+  src: url("/fonts/Gelasio-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: Gelasio;
+  font-style: italic;
+  font-weight: normal;
+  src: url("/fonts/Gelasio-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: Gelasio;
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Gelasio-Regular.ttf") format("truetype");
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16pt;
+  font-family: Gelasio, Helvetica Neue, serif;
+}
+
+a {
+  color: inherit;
+}
+
+footer {
+  z-index: 999;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 12pt;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.brand {
+  z-index: 999;
+  margin: 1%;
+  -webkit-animation: slide 2s ease forwards;
+  animation: slide 2s ease forwards;
+}
+@media screen and (max-width: 540px) {
+  .brand {
+    position: relative;
+    display: inline;
+  }
+}
+@media screen and (min-width: 541px) {
+  .brand {
+    position: fixed;
+    top: 0;
+    right: 300px;
+    -webkit-animation: slide 2s ease forwards;
+    animation: slide 2s ease forwards;
+  }
+}
+.brand a {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+
+@-webkit-keyframes slide {
+  100% { right: 0; }
+}
+
+@keyframes slide {
+  100% { right: 0; }
+}
+.padded {
+  width: 540px;
+  margin: 0 auto;
+  padding: 10%;
+  height: 66%;
+  overflow-y: auto;
+}
+@media screen and (max-width: 540px) {
+  .padded {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0 0 5%;
+    height: 80%;
+    overflow-y: auto;
+  }
+}
+.cookie {
+  padding: 5%;
+  color: white;
+  background-color: rgb(27, 27, 27);
+  z-index: 1000;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 16pt;
+}
+
+.btnCookie {
+  border-radius: 5%;
+  padding: 1%;
+  background-color: #0070f3;
+  color: white;
+  font-size: 16pt;
+  text-decoration: none;
+  cursor: pointer;
+}
