@@ -23,6 +23,7 @@
   background-color: #0070f3;
   color: white;
   font-size: 0.8rem;
+  cursor: pointer;
 }
 .btnDisabled {
   border-radius: 5%;
@@ -30,6 +31,7 @@
   background-color: black;
   color: gray;
   font-size: 0.8rem;
+  cursor: not-allowed;
 }
 
 @media screen and (max-width: 539px) {
