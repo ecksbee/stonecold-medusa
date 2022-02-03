@@ -11,9 +11,9 @@ const Home: NextPage = () => {
     <Layout>
       <div className={styles.padded}>
             <h1>Our Mission</h1>
-            <p>Enable the proliferation of regulatory disclosure technology in order to help combat climate change and the eradication of forced labor throughout the world.</p>
+            <p>Enable the proliferation of regulatory disclosure technology in order to help combat climate change and to aid with the eradication of forced labor throughout the world.</p>
             <div>
-              <Image src={missionImg} ></Image>
+              <Image src={missionImg} alt='lightbulb filled with small green plant in burnt and dried soil'></Image>
             </div>
       </div>
     </Layout>
