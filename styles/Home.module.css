@@ -101,16 +101,36 @@ h2.title {
   .hero {
     flex-direction: column;
   }
+
   .heroImg {
     position: relative;
-    height: calc(881 * 100vw / 785);
     width: 100%;
-    max-width: 785px;
   }
   
   .heroTextContainer {
     position: relative;
-    height: calc(100vh - 881 * 100vw / 785);
     width: 100%;
+  }
+
+  @supports (-webkit-touch-callout: none) {
+    .heroImg {
+      height: calc(881 * 100vw / 695);
+      max-width: 695px;
+    }
+    
+    .heroTextContainer {
+      height: calc(100vh - 881 * 100vw / 695);
+    }
+  }
+
+  @supports not (-webkit-touch-callout: none) {
+    .heroImg {
+      height: calc(881 * 100vw / 785);
+      max-width: 785px;
+    }
+    
+    .heroTextContainer {
+      height: calc(100vh - 881 * 100vw / 785);
+    }
   }
 }
