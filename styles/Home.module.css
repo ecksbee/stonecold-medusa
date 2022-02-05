@@ -120,6 +120,7 @@ h2.title {
     
     .heroTextContainer {
       height: calc(100vh - 881 * 100vw / 785 - 300);
+      background-color: red;
     }
   }
 
