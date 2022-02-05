@@ -31,6 +31,14 @@ const CookieBanner = () : JSX.Element | null => {
   return null
 }
 const Wrapper = ({children}: PropsWithChildren<{}>) : JSX.Element => {
+  React.useEffect(
+    () => {
+      if (document && typeof window !== 'undefined') {
+        const body = document.body as any
+        body.height = window.innerHeight
+      }
+    }, []
+  )
   const router = useRouter()
   let brandHref = '/about_us'
   if (router.pathname === '/about_us') {
