@@ -46,8 +46,12 @@ footer {
   position: fixed;
   top: 0;
   left: 0;
-  min-height: -webkit-fill-available;
   min-height: 100vh;
+}
+@media screen and (max-width: 540px) {
+  .container {
+    min-height: -webkit-fill-available;
+  }
 }
 .brand {
   z-index: 999;
