@@ -114,12 +114,12 @@ h2.title {
 
   @supports (-webkit-touch-callout: none) {
     .heroImg {
-      height: calc(881 * 100vw / 785 - 300);
+      height: calc(881 * 100vw / 785 - 400);
       max-width: 785px;
     }
     
     .heroTextContainer {
-      height: calc(100vh - 881 * 100vw / 785 - 300);
+      height: calc(100vh - 881 * 100vw / 785 - 400);
       background-color: red;
     }
   }
