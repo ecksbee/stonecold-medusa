@@ -42,12 +42,12 @@ footer {
   font-size: 12pt;
 }
 .container {
-  height: 100vh;
   width: 100vw;
   position: fixed;
   top: 0;
   left: 0;
   min-height: -webkit-fill-available;
+  min-height: 100vh;
 }
 .brand {
   z-index: 999;
