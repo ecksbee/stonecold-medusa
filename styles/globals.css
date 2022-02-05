@@ -41,6 +41,13 @@ footer {
   right: 0;
   font-size: 12pt;
 }
+@media screen and (max-width: 540px) {
+  @supports (-webkit-touch-callout: none) {
+    footer {
+      bottom: 300px;
+    }
+  }
+}
 .container {
   width: 100vw;
   position: fixed;
