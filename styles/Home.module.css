@@ -68,6 +68,7 @@ h2.title {
   padding: 1%;
   background-color: #0070f3;
   color: white;
+  text-align: center;
 }
 
 .cta a {
@@ -104,34 +105,16 @@ h2.title {
 
   .heroImg {
     position: relative;
-    width: 100%;
+    height: 50%;
+    height: 50%;
+    max-width: 250px;
   }
   
   .heroTextContainer {
     position: relative;
+    display: block;
     width: 100%;
-  }
-
-  @supports (-webkit-touch-callout: none) {
-    .heroImg {
-      height: calc(881 * 100vw / 785 - 400);
-      max-width: 785px;
-    }
-    
-    .heroTextContainer {
-      height: calc(100vh - 881 * 100vw / 785 - 400);
-      background-color: red;
-    }
-  }
-
-  @supports not (-webkit-touch-callout: none) {
-    .heroImg {
-      height: calc(881 * 100vw / 785);
-      max-width: 785px;
-    }
-    
-    .heroTextContainer {
-      height: calc(100vh - 881 * 100vw / 785);
-    }
+    min-width: unset;
+    max-width: 250px;
   }
 }
