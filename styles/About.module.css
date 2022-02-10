@@ -1,9 +1,27 @@
-.padded {
-  padding: 1% 20%;
+
+
+.mission {
+  width: 80vw;
+  margin: 0 auto;
+}
+@media screen and (max-width: 540px) {
+  .mission {
+    width: 95vw;
+  }
 }
 
-@media screen and (max-width: 539px) {
-  .padded {
-    padding: 1%;
+.image {
+  position: fixed;
+  top: 22vh;
+  left: 30vw;
+  width: 40vw;
+  height: 40vh;
+}
+@media screen and (max-width: 540px) {
+  .image {
+    top: 5vh;
+    left: 2.5vw;
+    width: 95vw;
+    height: 95vh;
   }
 }

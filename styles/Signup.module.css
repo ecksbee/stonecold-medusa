@@ -3,6 +3,12 @@
   margin: 0 auto;
   padding: 1%;
 }
+@media screen and (max-width: 540px) {
+  .padded {
+    width: 100%;
+    margin: 0;
+  }
+}
 .scroll {
   height: 90%;
   position: absolute;
@@ -10,9 +16,21 @@
   overflow-y: auto;
   padding: 0 1%;
 }
+@media screen and (max-width: 540px) {
+  .scroll {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+  }
+}
 
 .fullWidth {
   width: 100%;
+}
+@media screen and (max-width: 540px) {
+  .fullWidth {
+    width: 95%;
+  }
 }
 
 .home {
@@ -39,11 +57,4 @@
   color: gray;
   font-size: 0.8rem;
   cursor: not-allowed;
-}
-
-@media screen and (max-width: 539px) {
-  .padded {
-    width: 100%;
-    margin: 0;
-  }
 }
