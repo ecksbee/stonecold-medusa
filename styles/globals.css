@@ -71,27 +71,24 @@ footer {
   top: 0;
   right: 0;
 }
-.brand a {
-  cursor: pointer;
-  height: 100%;
-  width: 100%;
+@media screen and (max-width: 540px) {
+  .brand {
+    position: relative;
+    display: inline;
+  }
+}
+@media screen and (min-width: 541px) {
+  .brand {
+    position: fixed;
+    top: 0;
+    right: 0px;
+  }
 }
 .about-text {
   z-index: 999;
   top: 0;
   right: 0;
   background-color: white;
-}
-@-webkit-keyframes slide {
-  100% {
-    right: 0;
-  }
-}
-
-@keyframes slide {
-  100% {
-    right: 0;
-  }
 }
 .padded {
   width: 540px;
