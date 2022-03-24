@@ -52,6 +52,7 @@ const Wrapper = ({children}: PropsWithChildren<{}>) : JSX.Element => {
           <span className='brand'>
             <Link href={brandHref}>
               <a>
+                <div className='about-text'>Learn more!</div>
                 <Image src={logo} alt="ECKSBEE Logo" width={79} height={61} />
               </a>
             </Link>

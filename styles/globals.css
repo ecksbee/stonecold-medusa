@@ -67,8 +67,9 @@ footer {
 .brand {
   z-index: 999;
   margin: 1%;
-  -webkit-animation: slide 2s ease forwards;
-  animation: slide 2s ease forwards;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 @media screen and (max-width: 540px) {
   .brand {
@@ -80,23 +81,14 @@ footer {
   .brand {
     position: fixed;
     top: 0;
-    right: 300px;
-    -webkit-animation: slide 2s ease forwards;
-    animation: slide 2s ease forwards;
+    right: 0px;
   }
 }
-.brand a {
-  cursor: pointer;
-  height: 100%;
-  width: 100%;
-}
-
-@-webkit-keyframes slide {
-  100% { right: 0; }
-}
-
-@keyframes slide {
-  100% { right: 0; }
+.about-text {
+  z-index: 999;
+  top: 0;
+  right: 0;
+  background-color: white;
 }
 .padded {
   width: 540px;
