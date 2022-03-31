@@ -69,7 +69,7 @@ const Wrapper = ({ children }: PropsWithChildren<{}>): JSX.Element => {
               </div>
               <div className="speech-bubble">
                 <div className="left-point"></div>
-                <div className="dialog-1">Learn more!</div>
+                <div className="dialog-1">Click here to learn more!</div>
               </div>
             </a>
           </Link>
