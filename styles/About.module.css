@@ -11,8 +11,8 @@
 }
 
 .image {
-  position: fixed;
-  top: 22vh;
+  position: relative;
+  display: inline-block;
   left: 30vw;
   width: 40vw;
   height: 40vh;

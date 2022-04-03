@@ -85,6 +85,7 @@ h2.title {
   .heroTextContainer {
     width: calc(100vw - 785 * 100vh / 881 / 2);
     min-width: 430px;
+    margin: 20px;
   }
 }
 

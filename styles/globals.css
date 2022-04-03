@@ -28,18 +28,25 @@ body {
   margin: 0;
   font-size: 16pt;
   font-family: Gelasio, Helvetica Neue, serif;
+  margin-bottom: 107px;
 }
-
 a {
   color: inherit;
 }
 
 footer {
   z-index: 999;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
+  width: 100%;
   font-size: 12pt;
+
+  background-color: white;
+  border-top-style: solid;
+  border-width: 3px;
+  border-color: black;
+  padding-top: 5px;
 }
 @media screen and (max-width: 540px) {
   footer {
@@ -47,53 +54,40 @@ footer {
     padding: 0;
     margin: 0;
     font-size: 10pt;
-    bottom: calc(40px);
     left: 0;
     height: 107px;
   }
 }
 .container {
-  width: 100vw;
-  position: fixed;
+  width: 98vw;
+  position: absolute;
   top: 0;
   left: 0;
   min-height: 100vh;
+  padding-bottom: 130px;
 }
 @media screen and (max-width: 540px) {
   .container {
     min-height: calc(100vh - 107px - 40px);
   }
 }
-.brand {
-  z-index: 999;
-  margin: 1%;
-  position: fixed;
-  top: 0;
-  right: 0;
-}
 @media screen and (max-width: 540px) {
-  .brand {
-    position: relative;
-    display: inline;
+  .speech-bubble {
+    width: 108px;
   }
 }
 @media screen and (min-width: 541px) {
-  .brand {
-    position: fixed;
-    top: 0;
-    right: 0px;
+  .speech-bubble {
+    width: 125px;
   }
-}
-.about-text {
-  z-index: 999;
-  top: 0;
-  right: 0;
-  background-color: white;
+  .logo {
+    margin-left: 35%;
+  }
 }
 .padded {
   width: 540px;
   margin: 0 auto;
-  padding: 10%;
+  padding: 10% 10% 0;
   height: 66%;
   overflow-y: auto;
 }
@@ -116,7 +110,6 @@ footer {
   right: 0;
   font-size: 16pt;
 }
-
 .btnCookie {
   border-radius: 5%;
   padding: 1%;
@@ -125,4 +118,37 @@ footer {
   font-size: 16pt;
   text-decoration: none;
   cursor: pointer;
+}
+.logo {
+  float: left;
+}
+.speech-bubble {
+  padding-left: 30px;
+  float: left;
+}
+.dialog-1 {
+  background-color: #0070f3;
+  color: white;
+  position: relative;
+  padding: 14px;
+  border-radius: 10%;
+  z-index: 999;
+}
+.left-point {
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 45px solid #0070f3;
+  position: relative;
+  float: left;
+  top: 0%;
+  left: -10px;
+  transform: rotate(90deg);
+  z-index: 998;
+}
+.copyright {
+  text-align: right;
+  width: 98%;
+  display: inline-block;
 }
