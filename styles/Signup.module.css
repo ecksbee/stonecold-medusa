@@ -11,10 +11,10 @@
 }
 .scroll {
   height: 90%;
-  position: absolute;
+  position: relative;
   display: block;
   overflow-y: auto;
-  padding: 0 1%;
+  padding: 2% 1%;
 }
 @media screen and (max-width: 540px) {
   .scroll {
