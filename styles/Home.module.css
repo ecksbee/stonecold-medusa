@@ -1,6 +1,4 @@
 .heroContainer {
-  height: 100vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,8 +17,8 @@
 }
 
 .heroImg {
-  height: 100%;
-  width: calc(785 * 100vh / 881);
+  height: unset;
+  width: calc(785 * (100vh - 128px) / 881);
   max-width: 785px;
   display: flex;
   flex-direction: column;
@@ -29,8 +27,8 @@
 }
 
 .heroTextContainer {
-  height: 100%;
-  width: calc(100vw - 785 * 100vh / 881);
+  height: unset;
+  width: calc(100vw - 785 * (100vh - 128px) / 881);
   display: flex;
   flex-direction: column;
   justify-content: center;
