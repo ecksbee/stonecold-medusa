@@ -18,7 +18,7 @@ const hero = <div className={styles.heroContainer} >
         <h2 className={styles.title}>
           <a href="https://xbrl.org">XBRL</a> for humanity&apos;s future
         </h2>
-        <p className={styles.cta}><Link href='/signup'>Talk to us</Link></p>
+        {/* <p className={styles.cta}><Link href='/signup'>Talk to us</Link></p> */}
     </div>
   </div>
 </div>

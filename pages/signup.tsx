@@ -1,3 +1,4 @@
+import Error from 'next/error'
 import type { GetServerSideProps, NextPage } from 'next'
 import Link from 'next/link'
 import React, { SyntheticEvent } from 'react'
@@ -14,6 +15,7 @@ const SignUp: NextPage<Props> = ({csrfToken} : Props) => {
     const [hcaptcha, setHcaptcha] = React.useState(false)
     const [submit, setSubmit] = React.useState(false)
     const [processed, setProcessed] = React.useState(false)
+    return <Error statusCode={404} />
     const signup = async (event : SyntheticEvent) => {
         if (!hcaptcha) {
             return
