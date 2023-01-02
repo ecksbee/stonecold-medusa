@@ -29,6 +29,7 @@ const CookieBanner = (): JSX.Element | null => {
           <button
             className={styles.btnCookie}
             onClick={(e) => {
+              
               window.localStorage.setItem(consentKey, Date.now().toString())
               setUnderstood(true)
             }}

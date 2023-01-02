@@ -12,7 +12,7 @@ const Home: NextPage = () => {
     <Layout>
       <div className={styles.row}>
         <div className={styles.leftTall}>
-          <Image src={heroImg} alt="Hot air balloons, cold dark night" fill sizes='calc(50vw * 8/9)'/>
+          <Image src={heroImg} alt="Hot air balloons, cold dark night" fill />
         </div>
         <div className={styles.rightTall}>
           <h1><a href="https://xbrl.org">XBRL</a> for humanity&apos;s future</h1>
@@ -24,7 +24,7 @@ const Home: NextPage = () => {
           <p>Enable the proliferation of regulatory disclosure technology in order to help combat climate change and to aid with the eradication of forced labor throughout the world.</p>
         </div>
         <div className={styles.right}>
-          <Image src={missionImg} alt='lightbulb filled with small green plant in burnt and dried soil' fill sizes='50vw'/>
+          <Image src={missionImg} alt='lightbulb filled with small green plant in burnt and dried soil' fill/>
         </div>
       </div>
     </Layout>
