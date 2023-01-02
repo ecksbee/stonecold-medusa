@@ -3,6 +3,7 @@
 }
 
 .rightTall {
+  font-family: Gelasio, Helvetica Neue, serif;
   flex: 50%;
   position: relative;
   display: block;

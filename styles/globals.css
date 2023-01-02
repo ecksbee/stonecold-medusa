@@ -2,14 +2,18 @@
   font-family: Gelasio;
   font-style: normal;
   font-weight: normal;
-  src: url("/fonts/Gelasio-Regular.ttf") format("truetype");
+  src: url("/fonts/gelasio/Gelasio-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: DejaVuSans;
+  src: url("/fonts/dejavu-sans/ttf/DejaVuSansCondensed.ttf") format("truetype");
 }
 html,
 body {
   padding: 0;
   margin: 0;
   font-size: 16pt;
-  font-family: Gelasio, Helvetica Neue, serif;
+  font-family: DejaVuSans, Verdana, sans-serif;
   margin-bottom: 107px;
   background-color: white;
   color: black;
