@@ -1,0 +1,8 @@
+.padded {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 10%;
+    height: 90vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

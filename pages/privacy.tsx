@@ -5,15 +5,16 @@ import path from 'path'
 import fs from 'fs'
 import Layout from '../components/Layout'
 import markdown from '../lib/markdown'
+import MdReader from '../components/MdReader'
 
 type Props = {
     content: any 
 }
 
-const Cookie: NextPage<Props> = ({content} : Props) => {
+const Privacy: NextPage<Props> = ({content} : Props) => {
     return (
         <Layout>
-        <div className='padded' dangerouslySetInnerHTML={{__html: content}} />
+          <MdReader content={content} />
         </Layout>
     )
 }
@@ -27,4 +28,4 @@ export const getStaticProps: GetStaticProps = async (context) => {
       }
     }
 }
-export default Cookie
+export default Privacy
