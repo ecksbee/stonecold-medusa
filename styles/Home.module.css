@@ -1,3 +1,26 @@
-.carousel {
-
+.hero {
+    display: flex;
+}
+.heroImg {
+    position: relative;
+    height: calc(50vw * 721/1080);
+    width: 50vw;
+}
+@media (max-width: 540px) {
+    .heroImg {
+        height: calc(98vw * 721/1080);
+        width: 98vw;
+    }
+}
+.cta {
+    border-radius: 25%;
+    border: 3px black dashed;
+    background-color: yellow;
+    color: black;
+    font-size: 1.3em;
+}
+.cta:hover {
+    border: 3px blue solid;
+    background-color: blue;
+    color: white;
 }
