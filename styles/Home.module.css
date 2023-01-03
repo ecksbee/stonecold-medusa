@@ -2,6 +2,7 @@
     display: flex;
 }
 .heroImg {
+    flex: 50%;
     position: relative;
     height: calc(50vw * 721/1080);
     width: 50vw;
@@ -11,6 +12,9 @@
         height: calc(98vw * 721/1080);
         width: 98vw;
     }
+}
+.heroBanner {
+    flex: 50%;
 }
 .cta {
     border-radius: 25%;
