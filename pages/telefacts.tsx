@@ -2,15 +2,10 @@
 import React from 'react'
 import type { NextPage } from 'next'
 import Image from 'next/image'
-import Link from 'next/link'
 import Layout from '../components/Layout'
 import hypercube from '../public/hypercube.svg'
 
-type Props = {
-    content: any 
-}
-
-const EDGARBrowserSpecSheet: NextPage<Props> = () => {
+const TeleFactsSpecSheet: NextPage = () => {
     return (
         <Layout>
             <div>
@@ -21,7 +16,7 @@ const EDGARBrowserSpecSheet: NextPage<Props> = () => {
             </div>
             <div>
                 <p>
-                    When TeleFacts' was created, the main goals were: 
+                    When TeleFacts was created, the main goals were: 
                     <ol>
                         <li>
                             XBRL rendering
@@ -32,7 +27,7 @@ const EDGARBrowserSpecSheet: NextPage<Props> = () => {
                     </ol>
                 </p>
                 <p>
-                    Currently, TeleFacts can be deployed with "goldlord-midas" (a solidjs web app) to render XBRL reports with the following XBRL specification compliance:
+                    Currently, TeleFacts can be deployed with &quot;goldlord-midas&quot; (a solidjs web app) to render XBRL reports with the following XBRL specification compliance:
                     <ul>
                         <li>
                             XBRL 2.1 with no support for the following:
@@ -95,4 +90,4 @@ const EDGARBrowserSpecSheet: NextPage<Props> = () => {
     )
 }
 
-export default EDGARBrowserSpecSheet
+export default TeleFactsSpecSheet
