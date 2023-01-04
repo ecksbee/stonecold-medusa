@@ -17,7 +17,7 @@
     flex: 50%;
 }
 .cta {
-    border-radius: 25%;
+    margin: 1%;
     border: 3px black dashed;
     background-color: yellow;
     color: black;
