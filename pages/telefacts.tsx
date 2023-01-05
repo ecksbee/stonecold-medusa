@@ -56,7 +56,7 @@ const TeleFactsSpecSheet: NextPage = () => {
                             XBRL Dimensions 1.0 (including typedMember and nested hypercubes)
                         </li>
                         <li>
-                            Inline XBRL 1.1 with limited support for the following:
+                            Inline XBRL 1.1 with support limited to the following elements:
                             <ul>
                                 <li>
                                     nonFraction

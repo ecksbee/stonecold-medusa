@@ -22,6 +22,13 @@ const Wrapper = ({ children }: PropsWithChildren<{}>): JSX.Element => {
               <h1>ECKSBEE</h1>
               <ul>
                 <li><Link href='about'><h2>About</h2></Link></li>
+                <li><Link href='telefacts'><h2>TeleFacts</h2></Link></li>
+                <li><Link href='edgarbrowser'><h2>EDGARBrowser</h2></Link></li>
+              </ul>
+            </div>
+            <div className={styles.footerList}>
+              <h1>Connect With Us</h1>
+              <ul>
                 <li><a href='https://github.com/ecksbee'><h2>Github</h2></a></li>
                 <li><a href='https://linkedin.com/company/ecksbee'><h2>LinkedIn</h2></a></li>
               </ul>
