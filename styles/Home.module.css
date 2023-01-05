@@ -1,119 +1,30 @@
-.heroContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .hero {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+    display: flex;
 }
-
 .heroImg {
-  height: unset;
-  width: calc(785 * (100vh - 128px) / 881);
-  max-width: 785px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    flex: 50%;
+    position: relative;
+    height: calc(50vw * 721/1080);
+    width: 50vw;
 }
-
-.heroTextContainer {
-  height: unset;
-  width: calc(100vw - 785 * (100vh - 128px) / 881);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+@media (max-width: 540px) {
+    .heroImg {
+        height: calc(98vw * 721/1080);
+        width: 98vw;
+    }
 }
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-  cursor: pointer;
+.heroBanner {
+    flex: 50%;
 }
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  text-align: center;
-}
-
-h1.title {
-  font-size: 4rem;
-}
-
-h2.title {
-  font-size: 2rem;
-}
-
 .cta {
-  border-radius: 5%;
-  padding: 1%;
-  background-color: #0070f3;
-  color: white;
-  text-align: center;
+    margin: 1%;
+    border: 3px black dashed;
+    background-color: yellow;
+    color: black;
+    font-size: 1.3em;
 }
-
-.cta a {
-  font-size: 2rem;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 1320px) {
-  .heroImg {
-    width: calc(785 * 100vh / 881 / 2);
-    max-width: calc(785 / 2);
-  }
-  .heroTextContainer {
-    width: calc(100vw - 785 * 100vh / 881 / 2);
-    min-width: 430px;
-    margin: 20px;
-  }
-}
-
-@media screen and (max-width: 539px) {
-  .cta a {
-    font-size: 1rem;
-  }
-  h1.title {
-    font-size: 2rem;
-  }
-  
-  h2.title {
-    font-size: 1rem;
-  }
-  .hero {
-    flex-direction: column;
-  }
-
-  .heroImg {
-    position: relative;
-    height: 50%;
-    height: 50%;
-    max-width: 250px;
-  }
-  
-  .heroTextContainer {
-    position: relative;
-    display: block;
-    width: 100%;
-    min-width: unset;
-    max-width: 250px;
-  }
+.cta:hover {
+    border: 3px blue solid;
+    background-color: blue;
+    color: white;
 }

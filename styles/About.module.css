@@ -1,27 +1,40 @@
-
-
-.mission {
-  width: 80vw;
-  margin: 0 auto;
-}
-@media screen and (max-width: 540px) {
-  .mission {
-    width: 95vw;
-  }
+.row {
+  display: flex;
 }
 
-.image {
+.rightTall {
+  font-family: Gelasio, Helvetica Neue, serif;
+  flex: 50%;
   position: relative;
-  display: inline-block;
-  left: 30vw;
-  width: 40vw;
-  height: 40vh;
+  display: block;
+  width: 48vw;
+  height: calc(48vw * 9/8);
+  margin: 3% 0;
 }
-@media screen and (max-width: 540px) {
-  .image {
-    top: 5vh;
-    left: 2.5vw;
-    width: 95vw;
-    height: 95vh;
-  }
+
+.leftTall {
+  flex: 50%;
+  position: relative;
+  display: block;
+  width: 48vw;
+  height: calc(48vw * 9/8);
+  margin: 0;
+}
+
+.left {
+  flex: 50%;
+  position: relative;
+  display: block;
+  width: 48vw;
+  height: calc(48vw * 23/35);
+  margin: 3% 0;
+}
+
+.right {
+  flex: 50%;
+  position: relative;
+  display: block;
+  width: 48vw;
+  height: calc(48vw * 23/35);
+  margin: 0;
 }
