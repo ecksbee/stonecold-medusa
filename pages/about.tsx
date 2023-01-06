@@ -10,7 +10,7 @@ import heroImg from '../public/hero.png'
 const Home: NextPage = () => {
   return (
     <Layout>
-      <div className={styles.row}>
+      <div className={styles.row1}>
         <div className={styles.leftTall}>
           <Image src={heroImg} alt="Hot air balloons, cold dark night" fill />
         </div>
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
           <h1><a href="https://xbrl.org">XBRL</a> for humanity&apos;s future</h1>
         </div>
       </div>
-      <div className={styles.row}>
+      <div className={styles.row2}>
         <div className={styles.left}>
           <h1>Our Mission</h1>
           <p>Enable the proliferation of regulatory disclosure technology in order to help combat climate change and to aid with the eradication of forced labor throughout the world.</p>

@@ -1,4 +1,7 @@
-.row {
+.row1 {
+  display: flex;
+}
+.row2 {
   display: flex;
 }
 
@@ -9,15 +12,22 @@
   display: block;
   width: 48vw;
   height: calc(48vw * 9/8);
-  margin: 3% 0;
+  max-height: 255px;
+  margin: 0;
+}
+
+.rightTall h1 {
+  margin: 0;
 }
 
 .leftTall {
   flex: 50%;
   position: relative;
   display: block;
-  width: 48vw;
-  height: calc(48vw * 9/8);
+  width: 50vw;
+  height: calc(50vw * 720/640);
+  max-height: 255px;
+  max-width: 222px;
   margin: 0;
 }
 
@@ -37,4 +47,33 @@
   width: 48vw;
   height: calc(48vw * 23/35);
   margin: 0;
+}
+@media (max-width: 726px) {
+    .row2 {
+      display: block;
+    }
+    .left {
+        flex: none;
+        height: unset;
+        width: 98vw;
+    }
+    .right {
+        flex: none;
+        height: 253px;
+        width: 98vw;
+        max-width: 394px;
+    }
+}
+@media (max-width: 454px) {
+  .rightTall {
+    flex: 70%;
+    width: 68vw;
+  }
+  .leftTall {
+    flex: 30%;
+    max-height: 255px;
+    height: calc(30vw * 720/640);
+    width: 30vw;
+    max-width: 222px;
+  }
 }
