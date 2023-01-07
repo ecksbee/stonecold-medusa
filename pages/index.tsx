@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Layout from '../components/Layout'
 import styles from '../styles/Home.module.css'
-import beesImg from '../public/bees.jpg'
+import beesImg from '../public/bees.png'
 
 const hero = <div className={styles.hero}>
   <div className={styles.heroImg} >

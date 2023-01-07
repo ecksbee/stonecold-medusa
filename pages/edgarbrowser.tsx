@@ -24,6 +24,9 @@ const EDGARBrowserSpecSheet: NextPage = () => {
                     EDGARBrowser was created to be a free and open-source tool to research XBRL-formatted EDGAR filings.  EDGARBrowser relies on <Link href='telefacts'>TeleFacts</Link> to render the XBRL report.  EDGARBrowser has a back-end web service implemented with a golang docker container.  EDGARBrowser&apos;s web user interface is a static-site generated nextjs web app that is codenamed &quot;snakebane-patrick&quot;.  The golang docker container consumes the US SEC&apos;s EDGAR APIs to retrieve the XBRL-formatted filings.
                 </p>
                 <p>
+                    EDGARBrowser can browse historical EDGAR filings as far back as 2016.  EDGARBrowser&apos;s XBRL renderer has only been tested to as far back as 2016 where XBRL 2.1, XBRL Dimension 1.0, and UTF8 encoding are known to be used.
+                </p>
+                <p>
                     Releases can be found in the following locations:
                     <ul>
                         <li>
