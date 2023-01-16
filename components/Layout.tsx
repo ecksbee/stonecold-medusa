@@ -9,35 +9,35 @@ const Wrapper = ({ children }: PropsWithChildren<{}>): JSX.Element => {
   return (
     <>
       <nav className={styles.navBar}>
-        <h1 className={styles.Brand}>
+        <span className={styles.Brand}>
           <img src={logo.src} alt="ECKSBEE Logo" width={64.1} height={49.5} />
           <Link href='/'>ECKSBEE</Link>
-        </h1>
+        </span>
       </nav>
       <div className={styles.container}>
         {children}
         <footer className={styles.footer}>
           <div className={styles.footerNav}>
             <div className={styles.footerList}>
-              <h1>ECKSBEE</h1>
+              <h2>ECKSBEE</h2>
               <ul>
-                <li><Link href='about'><h2>About</h2></Link></li>
-                <li><Link href='telefacts'><h2>TeleFacts</h2></Link></li>
-                <li><Link href='edgarbrowser'><h2>EDGARBrowser</h2></Link></li>
+                <li><Link href='about'>About</Link></li>
+                <li><Link href='telefacts'>TeleFacts</Link></li>
+                <li><Link href='edgarbrowser'>EDGARBrowser</Link></li>
               </ul>
             </div>
             <div className={styles.footerList}>
-              <h1>Connect With Us</h1>
+              <h2>Connect With Us</h2>
               <ul>
-                <li><a href='https://github.com/ecksbee'><h2>Github</h2></a></li>
-                <li><a href='https://linkedin.com/company/ecksbee'><h2>LinkedIn</h2></a></li>
+                <li><a href='https://github.com/ecksbee'>Github</a></li>
+                <li><a href='https://linkedin.com/company/ecksbee'>LinkedIn</a></li>
               </ul>
             </div>
             <div className={styles.footerList}>
-              <h1>Legal</h1>
+              <h2>Legal</h2>
               <ul>
-                <li><Link href='privacy'><h2>Privacy</h2></Link></li>
-                <li><Link href='cookies'><h2>Cookies</h2></Link></li>
+                <li><Link href='privacy'>Privacy</Link></li>
+                <li><Link href='cookies'>Cookies</Link></li>
               </ul>
             </div>
           </div>

@@ -9,6 +9,7 @@ const TeleFactsSpecSheet: NextPage = () => {
     return (
         <Layout>
             <div>
+                <h1>TeleFacts</h1>
                 <p>
                     TeleFacts is a golang module used to build bleeding-edge XBRL technologies.  
                 </p>
