@@ -20,8 +20,8 @@ const Home: NextPage = () => {
       </div>
       <div className={styles.row2}>
         <div className={styles.left}>
-          <h1>Our Mission</h1>
-          <p>Enable the proliferation of regulatory disclosure technology in order to help combat climate change and to aid with the eradication of forced labor throughout the world.</p>
+          <h2>Our Mission</h2>
+          <p>Enable the proliferation of regulatory disclosure technology in order to help combat climate change and to aid with the eradication of forced labor throughout the world.  ECKSBEE is the powerhouse behind many bleeding-edge XBRL technologies.  Extremely devoted to the cause for the planet&apos;s sustainability and human dignity, look no further for here is ECKSBEE.</p>
         </div>
         <div className={styles.right}>
           <Image src={missionImg} alt='lightbulb filled with small green plant in burnt and dried soil' fill/>

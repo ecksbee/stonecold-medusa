@@ -7,11 +7,11 @@ import Layout from '../components/Layout'
 import styles from '../styles/EdgarBrowser.module.css'
 import magnifier from '../public/magnifier.png'
 
-
 const EDGARBrowserSpecSheet: NextPage = () => {
     return (
         <Layout>
             <div className={styles.banner}>
+                <h1>EDGARBrowser</h1>
                 <p>
                     EDGARBrowser empowers the XBRL community to interact with the XBRL reports submitted to the US SEC&apos;s EDGAR system.
                 </p>
