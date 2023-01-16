@@ -9,10 +9,10 @@ const Wrapper = ({ children }: PropsWithChildren<{}>): JSX.Element => {
   return (
     <>
       <nav className={styles.navBar}>
-        <h1 className={styles.Brand}>
+        <span className={styles.Brand}>
           <img src={logo.src} alt="ECKSBEE Logo" width={64.1} height={49.5} />
           <Link href='/'>ECKSBEE</Link>
-        </h1>
+        </span>
       </nav>
       <div className={styles.container}>
         {children}
