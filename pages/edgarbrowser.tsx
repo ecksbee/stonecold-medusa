@@ -16,7 +16,7 @@ const EDGARBrowserSpecSheet: NextPage = () => {
                     EDGARBrowser empowers the XBRL community to interact with the XBRL reports submitted to the US SEC&apos;s EDGAR system.
                 </p>
                 <p>
-                    <div className={styles.cta}><a href='https://edgarbrowser.ecksbee.com'><Image src={magnifier} alt='magnifying glass' height={60} width={60} />Browse Now</a></div>
+                    <div className={styles.cta}><a href='https://edgarbrowser.com'><Image src={magnifier} alt='magnifying glass' height={60} width={60} />Browse Now</a></div>
                 </p>
             </div>
             <div>
