@@ -6,17 +6,19 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 import styles from '../styles/EdgarBrowser.module.css'
 import magnifier from '../public/magnifier.png'
+import edgarbrowser from '../public/edgarbrowser.png'
 
 const EDGARBrowserSpecSheet: NextPage = () => {
     return (
         <Layout>
             <div className={styles.banner}>
                 <h1>EDGARBrowser</h1>
+                <Image src={edgarbrowser} alt='man in a postage stamp' height={799} width={600} />
                 <p>
                     EDGARBrowser empowers the XBRL community to interact with the XBRL reports submitted to the US SEC&apos;s EDGAR system.
                 </p>
                 <p>
-                    <div className={styles.cta}><a href='https://edgarbrowser.ecksbee.com'><Image src={magnifier} alt='magnifying glass' height={60} width={60} />Browse Now</a></div>
+                    <div className={styles.cta}><a href='https://edgarbrowser.com'><Image src={magnifier} alt='magnifying glass' height={60} width={60} />Browse Now</a></div>
                 </p>
             </div>
             <div>
