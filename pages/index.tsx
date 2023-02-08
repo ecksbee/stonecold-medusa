@@ -4,11 +4,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Layout from '../components/Layout'
 import styles from '../styles/Home.module.css'
-import beesImg from '../public/bees.png'
+import edgarbrowser from '../public/edgarbrowser.png'
 
+const scale = 4.1
 const hero = <div className={styles.hero}>
   <div className={styles.heroImg} >
-    <Image src={beesImg} alt='bees honeycomb' fill/>
+    <Image src={edgarbrowser} alt='bees honeycomb' height={47.5 * scale} width={34 * scale}/>
   </div>
   <div className={styles.heroBanner}>
     <h1>EDGARBrowser is here</h1>

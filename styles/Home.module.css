@@ -2,21 +2,17 @@
     display: flex;
 }
 .heroImg {
-    flex: 50%;
+    flex: 5%;
     position: relative;
-    height: calc(50vw * 721/1080);
-    width: 50vw;
+    height: calc(25vw * 47.5/34);
+    width: 25vw;
 }
 .heroBanner {
-    flex: 50%;
+    flex: 95%;
 }
 @media (max-width: 540px) {
     .hero {
         display: block;
-    }
-    .heroImg {
-        height: calc(98vw * 721/1080);
-        width: 98vw;
     }
 }
 .cta {
