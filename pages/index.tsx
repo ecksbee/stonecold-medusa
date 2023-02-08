@@ -9,7 +9,7 @@ import edgarbrowser from '../public/edgarbrowser.png'
 const scale = 4.1
 const hero = <div className={styles.hero}>
   <div className={styles.heroImg} >
-    <Image src={edgarbrowser} alt='bees honeycomb' height={47.5 * scale} width={34 * scale}/>
+    <Image src={edgarbrowser} alt='man postage stamp' height={47.5 * scale} width={34 * scale}/>
   </div>
   <div className={styles.heroBanner}>
     <h1>EDGARBrowser is here</h1>
