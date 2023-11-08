@@ -1,13 +1,21 @@
 
 import React from 'react'
-import type { NextPage } from 'next'
+import type { GetStaticProps, NextPage } from 'next'
+import path from 'path'
+import fs from 'fs'
 import Image from 'next/image'
+import markdown from '../lib/markdown'
 import Layout from '../components/Layout'
+import MdReader from '../components/MdReader'
 import styles from '../styles/About.module.css'
 import missionImg from '../public/mission.png'
 import heroImg from '../public/hero.png'
 
-const Home: NextPage = () => {
+type Props = {
+  content: any 
+}
+
+const Home: NextPage<Props> = ({content} : Props) => {
   return (
     <Layout>
       <div className={styles.row1}>
@@ -27,8 +35,20 @@ const Home: NextPage = () => {
           <Image src={missionImg} alt='lightbulb filled with small green plant in burnt and dried soil' fill/>
         </div>
       </div>
+      <div>
+        <MdReader content={content} />
+      </div>
     </Layout>
   )
 }
 
+export const getStaticProps: GetStaticProps = async (context) => {
+  const filePath = path.join(process.cwd(), 'what_is_xbrl_en.md')
+  const content = await markdown(fs.readFileSync(filePath, 'utf8'))
+  return {
+    props: {
+      content 
+    }
+  }
+}
 export default Home
