@@ -1,6 +1,6 @@
 import React from 'react'
 import type { NextPage } from 'next'
-import Image from 'next/image'
+import Image from '../components/Image'
 import Link from 'next/link'
 import Layout from '../components/Layout'
 import styles from '../styles/Home.module.css'
@@ -9,7 +9,7 @@ import edgarbrowser from '../public/edgarbrowser.png'
 const scale = 4.1
 const hero = <div className={styles.hero}>
   <div className={styles.heroImg} >
-    <Image src={edgarbrowser} alt='man postage stamp' fill/>
+    <Image src={edgarbrowser} alt='man postage stamp'/>
   </div>
   <div className={styles.heroBanner}>
     <h1>EDGARBrowser is here</h1>

@@ -1,7 +1,7 @@
 
 import React from 'react'
 import type { NextPage } from 'next'
-import Image from 'next/image'
+import Image from '../components/Image'
 import Link from 'next/link'
 import Layout from '../components/Layout'
 import styles from '../styles/EdgarBrowser.module.css'
@@ -13,7 +13,7 @@ const EDGARBrowserSpecSheet: NextPage = () => {
         <Layout>
             <div className={styles.banner}>
                 <h1>EDGARBrowser</h1>
-                <Image src={edgarbrowser} alt='man in a postage stamp' height={799} width={600} />
+                <Image src={edgarbrowser} alt='man in a postage stamp' />
                 <p>
                     EDGARBrowser empowers the XBRL community to interact with the XBRL reports submitted to the US SEC&apos;s EDGAR system.
                 </p>
