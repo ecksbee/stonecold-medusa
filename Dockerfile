@@ -7,6 +7,8 @@ COPY . ./
 RUN yarn install --immutable
 RUN yarn build
 
+FROM ghcr.io/ecksbee/stonecold-medusa:latest AS pastbuilds
+
 # Production image, copy all the files and run next
 FROM node:18-alpine AS runner
 # Add libvips
@@ -23,6 +25,8 @@ RUN adduser -S nextjs -u 1001
 # COPY --from=builder /app/next.config.js ./
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/package.json ./package.json
+
+COPY --from=pastbuilds --chown=nextjs:nodejs /app/.next/static ./.next/static
 
 # Automatically leverage output traces to reduce image size 
 # https://nextjs.org/docs/advanced-features/output-file-tracing
