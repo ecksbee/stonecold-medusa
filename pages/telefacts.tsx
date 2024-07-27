@@ -1,7 +1,7 @@
 
 import React from 'react'
 import type { NextPage } from 'next'
-import Image from 'next/image'
+import Image from '../components/Image'
 import Layout from '../components/Layout'
 import hypercube from '../public/hypercube.svg'
 

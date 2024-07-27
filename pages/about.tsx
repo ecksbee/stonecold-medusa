@@ -3,7 +3,7 @@ import React from 'react'
 import type { GetStaticProps, NextPage } from 'next'
 import path from 'path'
 import fs from 'fs'
-import Image from 'next/image'
+import Image from '../components/Image'
 import markdown from '../lib/markdown'
 import Layout from '../components/Layout'
 import MdReader from '../components/MdReader'
@@ -20,7 +20,7 @@ const Home: NextPage<Props> = ({content} : Props) => {
     <Layout>
       <div className={styles.row1}>
         <div className={styles.leftTall}>
-          <Image src={heroImg} alt="Hot air balloons, cold dark night" fill />
+          <Image src={heroImg} alt="Hot air balloons, cold dark night" />
         </div>
         <div className={styles.rightTall}>
           <h1><a href="https://xbrl.org">XBRL</a> for humanity&apos;s future</h1>
@@ -32,7 +32,7 @@ const Home: NextPage<Props> = ({content} : Props) => {
           <p>Enable the proliferation of regulatory disclosure technology in order to help combat climate change and to aid with the eradication of forced labor throughout the world.  ECKSBEE is the powerhouse behind many bleeding-edge XBRL technologies.  Extremely devoted to the cause for the planet&apos;s sustainability and human dignity, look no further for here is ECKSBEE.</p>
         </div>
         <div className={styles.right}>
-          <Image src={missionImg} alt='lightbulb filled with small green plant in burnt and dried soil' fill/>
+          <Image src={missionImg} alt='lightbulb filled with small green plant in burnt and dried soil'/>
         </div>
       </div>
       <div>
