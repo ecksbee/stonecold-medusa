@@ -1,9 +1,17 @@
+import { useEffect } from 'react'
 import Head from 'next/head'
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 
 const tagline = "XBRL for humanity's future"
 function MyApp({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register('/stalewhilerevalidate.js')
+        .then((registration) => console.log('scope is: ', registration.scope));
+    }
+  }, []);
   return <>
     <Head>
       <title>{tagline}</title>
