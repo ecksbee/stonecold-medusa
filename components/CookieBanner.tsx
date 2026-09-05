@@ -31,14 +31,14 @@ const CookieBanner = (): React.ReactNode => {
           Our website uses cookies. By continuing to use our website, you are
           granting us permission to deploy our cookies as detailed in our{" "}
           <a
-            href="/privacy"
+            href="/privacy.html"
             className="text-blue-600 underline hover:text-blue-800"
           >
             privacy
           </a>{" "}
           and{" "}
           <a
-            href="/cookies"
+            href="/cookies.html"
             className="text-blue-600 underline hover:text-blue-800"
           >
             cookie
