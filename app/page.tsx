@@ -13,7 +13,9 @@ export default function Home() {
             height={48}
             className="rounded-full object-cover"
           />
-          <span className="text-xl font-bold tracking-tight">ECKSBEE FOUNDATION</span>
+          <span className="text-xl font-bold tracking-tight">
+            <span className="font-gelasio">ECKSBEE FOUNDATION</span>
+          </span>
         </div>
         <div className="hidden md:flex items-center gap-8">
           <a href="#about" className="text-sm font-medium hover:opacity-70 transition-opacity">About</a>
@@ -34,7 +36,7 @@ export default function Home() {
             priority
           />
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
-            ECKSBEE FOUNDATION
+            <span className="font-gelasio">ECKSBEE FOUNDATION</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-8">
             <a href="https://xbrl.org" target="_blank" rel="noopener noreferrer" className="font-medium underline hover:opacity-70">XBRL</a> for humanity&apos;s future
@@ -77,7 +79,7 @@ export default function Home() {
           <div id="mission" className="mb-16">
             <h3 className="text-2xl md:text-3xl font-bold mb-6 text-center">Our Mission</h3>
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-4xl mx-auto text-center">
-              Enable the proliferation of regulatory disclosure technology in order to help combat climate change and to aid with the eradication of forced labor throughout the world. ECKSBEE is the powerhouse behind many bleeding-edge XBRL technologies. Extremely devoted to the cause for the planet&apos;s sustainability and human dignity, look no further for here is ECKSBEE.
+              Enable the proliferation of regulatory disclosure technology in order to help combat climate change and to aid with the eradication of forced labor throughout the world. <span className="font-gelasio">ECKSBEE</span> is the powerhouse behind many bleeding-edge XBRL technologies. Extremely devoted to the cause for the planet&apos;s sustainability and human dignity, look no further for here is <span className="font-gelasio">ECKSBEE</span>.
             </p>
           </div>
 
@@ -206,10 +208,12 @@ export default function Home() {
               height={24}
               className="rounded-full object-cover"
             />
-            <span className="text-sm font-medium">ECKSBEE FOUNDATION</span>
+             <span className="text-sm font-medium">
+              <span className="font-gelasio">ECKSBEE FOUNDATION</span>
+            </span>
           </div>
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} ECKSBEE FOUNDATION. All rights reserved.
+            © {new Date().getFullYear()} <span className="font-gelasio">ECKSBEE FOUNDATION</span>. All rights reserved.
           </p>
         </div>
       </footer>
