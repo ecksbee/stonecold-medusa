@@ -1,6 +1,6 @@
 # Cookies Policy
 
-Last updated: January 24, 2022
+Last updated: September 5, 2026
 
 This Cookies Policy explains what Cookies are and how We use them. You should read this policy so You can understand what type of cookies We use, or the information We collect using Cookies and how that information is used. This Cookies Policy has been created with the help of the [Cookies Policy Generator](https://www.privacypolicies.com/cookies-policy-generator/).
 
@@ -18,7 +18,7 @@ The words of which the initial letter is capitalized have meanings defined under
 
 For the purposes of this Cookies Policy:
 
-- __Company__ (referred to as either "the Company", "We", "Us" or "Our" in this Cookies Policy) refers to ECKSBEE LLC, 4030 Wake Forest Road, Ste 349 Raleigh, NC 27609.
+- __Company__ (referred to as either "the Company", "We", "Us" or "Our" in this Cookies Policy) refers to ECKSBEE FOUNDATION, 4030 Wake Forest Road, Ste 349 Raleigh, NC 27609.
 - __Cookies__ means small files that are placed on Your computer, mobile device or any other device by a website, containing details of your browsing history on that website among its many uses.
 - __Website__ refers to ECKSBEE, accessible from [https://ecksbee.com](https://ecksbee.com)
 - __You__ means the individual accessing or using the Website, or a company, or any legal entity on behalf of which such individual is accessing or using the Website, as applicable.
