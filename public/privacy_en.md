@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Last updated: January 24, 2022
+Last updated: September 5, 2026
 
 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
 
@@ -19,7 +19,7 @@ For the purposes of this Privacy Policy:
 - __Account__ means a unique account created for You to access our Service or parts of our Service.
 
 
-- __Company__ (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to ECKSBEE LLC, 4030 Wake Forest Road, Ste 349, Raleigh, NC 27609.
+- __Company__ (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to ECKSBEE FOUNDATION, 4030 Wake Forest Road, Ste 349, Raleigh, NC 27609.
 
 
 
