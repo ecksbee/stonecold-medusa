@@ -1,3 +1,8 @@
+# stonecold-medusa
+When Medusa looks in the mirror, she sees the Lady of Sorrows.
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
